@@ -1,0 +1,127 @@
+Linux commands
+
+ls
+
+ls -ls
+
+vi - press i <insertmode>, press Ese <to comeout from insermode>, :wq <write and quite>
+
+vim
+
+nano
+
+cp source dest
+
+cp -r source dest
+
+mv oldname newname
+
+touch filename
+
+cat filename
+
+vi filename - if file not exist it will create new file
+
+mkdir dirname
+
+mkdir -p dirname1/dirname2/dirname3
+
+<<,>> input and output redirect tags
+
+R - replace
+
+dd - delete line
+
+r - replace single char
+
+G - goto last line
+
+w - to move one word
+
+head
+
+tail
+
+grep
+
+wc
+
+cd
+
+cd ..
+
+~cd
+
+find . -name test
+
+find . -iname Test
+
+find . -iname ".txt"
+
+find . -name ".txt"
+
+find . -name "*.txt"
+
+find / -type f -name test
+
+find / -type d -name test
+
+find / -type l -name test
+
+
+date
+
+time
+
+uptime
+
+uname
+
+uname -a
+
+which
+
+cal
+
+bc
+
+ps aux
+
+top
+
+useradd
+
+ tar -zxv maven.tar.gz 
+
+ tar -zxvf maven.tar.gz 
+ 
+ who
+ 
+ whoami
+ 
+ uname
+ 
+
+ 
+Talking to all logged in user:
+
+
+the root user can broadcast message to all logged in user using command:
+
+wall
+"hello everyone"
+
+(press right ctrl d)
+
+the message will be broadcasted all the logged in users.
+
+To send msg to particular user:
+
+write <username>
+
+"hello buddy"
+
+(press right ctrl d)
+
+the message will be send to that user only
+
